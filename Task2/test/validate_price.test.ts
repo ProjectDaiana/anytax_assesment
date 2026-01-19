@@ -28,7 +28,7 @@ test(
   await page.click('[id^="add-to-cart"]:first-of-type'); // The first button which id starts with add-to-cart
 
   // Go to cart page
-  await page.goto("http://localhost:3000/cart"); // Update with your cart page URL
+  await page.goto("https://www.saucedemo.com/cart.html"); // Update with your cart page URL
 
     // Validate price format in cart
     const priceText: string | null = await page.textContent(
